@@ -20,7 +20,7 @@ def get_resource_path(relative_path):
 class AppInteractivaV2:
     def __init__(self, root):
         self.root = root
-        self.root.title("Divisor PDF Pro V2.1 - Food Delivery Brands")
+        self.root.title("Divisor PDF Pro V2.1 - h00pl3sS")
         self.root.geometry("1100x950")
         
         self.pdf_path = ""
@@ -82,7 +82,7 @@ class AppInteractivaV2:
         self.log_area.pack(fill=tk.X, padx=10, pady=5)
         
         self.rect = None
-        tk.Label(self.root, text="Desarrollado por Miguel de Marcos para Food Delivery Brands", 
+        tk.Label(self.root, text="Desarrollado por Miguel de Marcos", 
                           fg="red", font=("Arial", 8, "italic")).pack(side=tk.BOTTOM, pady=2)
 
     def log(self, msg):
